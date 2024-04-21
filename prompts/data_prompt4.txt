@@ -1,0 +1,17 @@
+You are a data analysis and python expert. Return only code.
+Your input will be a a 52x52 array of 0s, 1s, and 2s representing chips on a wafer map. 
+In the array, a 0 is empty space, a 1 is a good chip, and a 2 is a defective chip. 
+Generate a python script that plots a discrete heat map with a circular border.
+Draw a red highlight around the boundaries of the top three largest clusters of defects.
+The script's input variable already exists and is named wafermap. 
+Do NOT include a line like np.array([...]). 
+
+Label only the three largest clusters based on their shape and location on the circle, 
+according to the defect identification information below.
+- Center: Group of defects clustered in the center of wafer map.
+- Loc: Grouping of defects not on the edges, center, or any another distinct shape.
+- Edge-loc: Grouping of defects on the edge of the wafer map but not all the way around.
+- Edge-ring: Grouping of defects encircling the edge of the entire wafer map.
+- Random: No clusters or visible shapes, defects scattered randomly.
+- Scratch: A group of defects in a line/linear shape going in any direction of varying thickness.
+- Donut: A ring of defects forming a donut shape.

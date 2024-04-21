@@ -1,0 +1,15 @@
+# Wafermap dataset
+https://data.nasa.gov/dataset/Identification-of-Spatial-Fault-Patterns-in-Semico/qw87-9yye/about_data
+https://paperswithcode.com/dataset/mixedwm38
+https://github.com/Junliangwangdhu/WaferMap?tab=readme-ov-file
+https://www.kaggle.com/datasets/co1d7era/mixedtype-wafer-defect-datasets
+
+# wafermap signature descriptions
+
+
+
+
+## Ideas 
+- Extendability
+	- UI/API to insert different data types into prompt and create new apps
+
