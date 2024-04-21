@@ -44,7 +44,7 @@ def get_response(sys_prompt, prompt):
 
     return res
 
-
+## IGNORE, testing gpt-generated code
 @st.cache_data
 def plot_wafer_map(wafer_map):
     # Identify the circle to mask out non-wafer areas
@@ -113,7 +113,7 @@ if prompt:
     st.session_state["messages"].append(Message(actor="user", payload=prompt))
     st.chat_message("user").write(prompt)
 
-    if "w" in prompt:
+    if "wafermap" in prompt:
         st.session_state["wafermap"] = "true"
 
 if st.session_state["wafermap"] == "true":
