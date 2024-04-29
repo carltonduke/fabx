@@ -1,1 +1,7 @@
 .venv
+assets/
+test/
+*.png
+wafermap_output1.png
+wafermap_output2.png
+links.txt
